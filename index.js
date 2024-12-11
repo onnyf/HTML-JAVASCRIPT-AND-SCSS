@@ -51,3 +51,35 @@ if(job = 'lawyer'){
 }else{
     console.log('your bill is 100k');
 }
+
+
+var classmates = ['damola', 'gbenga', 'banjo', 'tochukuw','kintan', 'ayo', 'sydney'];
+console.log(classmates);
+classmates.push('ehis')
+console.log(classmates)
+classmates.push('daniel')
+console.log(classmates)
+classmates.pop()
+console.log(classmates)
+classmates.pop()
+console.log(classmates)
+
+classmates.shift()
+console.log(classmates)
+classmates.unshift('damola')
+console.log(classmates)
+
+console.log(classmates.length)
+console.log(classmates[3])
+classmates[3] = 'alabi'
+console.log(classmates)
+
+console.log(classmates[6])
+classmates[6] = 'temitayo'
+console.log(classmates)
+
+
+
+// var texting = ['jagons', false, 'false', 50, null, 'null',]
+// console.log(texting);
+
